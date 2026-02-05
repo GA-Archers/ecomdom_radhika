@@ -1,0 +1,57 @@
+# Built application files
+*.jar
+*.war
+*.ear
+
+# Build directory
+target/
+build/
+
+# IDE files
+.idea/
+*.iml
+*.iws
+.classpath
+.project
+.settings/
+
+# Log files
+*.log
+
+# Dependency directories
+node_modules/
+.DS_Store
+.gradle
+/build/
+!/gradle/wrapper/gradle-wrapper.jar
+!/gradlew
+!/gradlew.bat
+
+# Eclipse
+.project
+.classpath
+.settings
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+.idea_modules
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Secrets
+application-local.properties
+application-dev.properties
+application-prod.properties
+.env
+secrets/
+*.pem
+*.jks
